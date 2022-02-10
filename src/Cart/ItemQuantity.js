@@ -1,13 +1,9 @@
-import React, { useState, useEffect } from "react";
+import Counter from './Counter';
 
-import Counter from "./Counter";
-
-import removeItem from "./utils/removeItem";
+import removeItem from './utils/removeItem';
 
 const ItemQuantity = (props) => {
-
-
-	return (
+    return (
         <div className="item-quantity">
             <Counter
                 itemTotal={props.itemTotal}
